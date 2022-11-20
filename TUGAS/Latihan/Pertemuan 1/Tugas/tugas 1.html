@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form HTML</title>
+</head>
+<body>
+    <form action="contact.php" method="POST">
+        <legend><h1>Form HTML</h1></legend>       
+        <p>
+            <label>Nama:</label>
+            <input type="text" name="nama" />
+        </p>
+        <p>
+            <label>Gender:</label>
+            <label><input type="radio" name="jenis_kelamin" value="man" /> Man</label>
+            <label><input type="radio" name="jenis_kelamin" value="woman" /> Woman</label>
+        <p>
+            <label>Address:</label>
+            <input type="text" name="address" />
+        </p>
+        <p>
+            <label>Country:</label>
+            <select name="country">
+                <option value="indonesia">Indonesia</option>
+                <option value="malaysia">Malaysia</option>
+                <option value="filipina">Filipina</option>
+                <option value="vietnam">Vietnam</option>
+            </select>
+        <p>
+            <label>Email:</label>
+            <input type="email" name="email" />
+        </p>
+        <p>
+            <label>Photo</label>
+            <td>:</td>
+            <td><input type="file" name="foto" /></td>
+        </p>
+        <p>
+            <label>Comment:</label>
+            <textarea name="comment"></textarea>
+            <input type="submit" name="submit" value="Submit" />
+        </p>
+        </fieldset>
+    </form>
+</body>
+</html>
